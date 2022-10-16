@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="D:\vue\面试准备\软件体系结构\css.css">
+    <script src="D:\vue\面试准备\软件体系结构\js.js"></script>
+</head>
+
+<div class="m1" onclick="f1()" ><a href="D:\vue\面试准备\软件体系结构\m1.html">主程序-子程序软件体系结构</a></div>
+<div class="m2" ><a href="D:\vue\面试准备\软件体系结构\m2.html">面向对象软件体系结构</a></div>
+<div class="m3" ><a href="D:\vue\面试准备\软件体系结构\m3.html">事件系统软件体系结构</a></div>
+<div class="m4" style="background-color: antiquewhite;"><a href="D:\vue\面试准备\软件体系结构\m4.html">管道-过滤软件体系结构</a></div>
+
+    <form action="/" method="post" enctype="multipart/form-data">
+        <div><input type="file" multiple="multiple" accept="image/*text/plain " name="image"></div>
+        <div ><input type="submit" value="运行文件代码"></div>
+    </form>
+    
+
+    <div class="hexin">核心代码: <br> "
+         "public static void runner(String inputUrl) throws IOException {<br>"
+         "        File inFile = new File(inputUrl);<br>"
+         "        File outFile = new File(\"E:\\kwic\\output.txt\");<br>"
+         "        Pipe pipe1 = new Pipe();<br>"
+         "        Pipe pipe2 = new Pipe();<br>"
+         "        Pipe pipe3 = new Pipe();<br>"
+         "        Input input = new Input(inFile, pipe1);<br>"
+         "        Shift shift = new Shift(pipe1, pipe2);<br>"
+         "        Alphabetizer alphabetizer  = new Alphabetizer(pipe2, pipe3);<br>"
+         "        Output output = new Output(outFile,pipe3);<br>"
+         "        input.transform();<br>"
+         "        shift.transform();<br>"
+         "        alphabetizer.transform();<br>"
+         "        output.transform();<br>"
+         "    }</div>
+    <div class="fangfa">方法解析：管道-过滤器模式的体系结构是面向数据流的软件体系结构，主要用于实现复杂的数据多步转换处理。<br>
+         "+"每个处理步骤封装在一个过滤器组件中。数据通过相邻过滤器之间的管道传输</div>
+    <div class="yunxin">运行结果：class xbx test <br>
+        cold xbx day <br>
+        day cold xbx <br>
+        day happy xbx <br>
+        happy xbx day <br>
+        test class xbx <br>
+        xbx day cold <br>
+        xbx day happy <br>
+        xbx test class </div>
+        <div class="yuanli"><p>原理图：</p>
+            <img src="https://img-blog.csdnimg.cn/20201209233949962.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80Mzg1MzA5Nw==,size_16,color_FFFFFF,t_70#pic_center" >
+        </div>
+    
+</html>
+    
+    
