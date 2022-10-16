@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="D:\vue\面试准备\软件体系结构\css.css">
+    <script src="D:\vue\面试准备\软件体系结构\js.js"></script>
+</head>
+
+    <div class="m1"  onclick="f1()" ><a href="D:\vue\面试准备\软件体系结构\m1.html">主程序-子程序软件体系结构</a></div>
+    <div class="m2"style="background-color: antiquewhite;" ><a href="D:\vue\面试准备\软件体系结构\m2.html">面向对象软件体系结构</a></div>
+    <div class="m3" ><a href="D:\vue\面试准备\软件体系结构\m3.html">事件系统软件体系结构</a></div>
+    <div class="m4" ><a href="D:\vue\面试准备\软件体系结构\m4.html">管道-过滤软件体系结构</a></div>
+
+    <form action="/" method="post" enctype="multipart/form-data">
+        <div><input type="file" multiple="multiple" accept="image/*text/plain " name="image"></div>
+        <div ><input type="submit" value="运行文件代码"></div>
+    </form>
+    
+
+    <div class="hexin">核心代码: <br> "
+         "public static void main(String inputUrl) {<br>"
+          "        Input input = new Input();<br>"
+          "        input.input(inputUrl);<br>"
+          "        Shift shift = new Shift(input.getLineTxt());<br>"
+          "        shift.shift();<br>"
+          "        Alphabetizer alphabetizer = new Alphabetizer(shift.getKwicList());<br>"
+          "        alphabetizer.sort();<br>"
+          "        Output output = new Output(alphabetizer.getKwicList());<br>"
+          "        output.output(\"images and other files/output.txt\");<br>"
+          "    }</div>
+    <div class="fangfa">方法解析：面向对象体系结构风格的组件是类和对象。<br>连接件是对象之间通过功能与函数调用实现交互。<br>" +
+        "对象是通过函数和过程的调用-返回机制来交互的，而类是通过定义对象，再采用调用-返回机制进行交互。<br></div>
+    <div class="yunxin">运行结果：</div>
+        <div class="yuanli"><p>原理图：</p>
+            <img src="https://img-blog.csdnimg.cn/20201209233922504.png#pic_center" >
+        </div>
+    
+</html>
+    
+    

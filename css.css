@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.m1{
+  height: 70px;
+  text-align: center; 
+			line-height: 70px;/*文字水平居中*/
+			margin:auto;/*div水平居中*/
+  float: left;
+  background-color: gray;
+  width: 25%;
+  text-align: center;
+  border-right: 1px solid;
+}
+.m2{
+  height: 70px;
+  text-align: center; 
+			line-height: 70px;/*文字水平居中*/
+			margin:auto;/*div水平居中*/
+  float: left;
+  background-color: gray;
+  width: 25%;
+  text-align: center;
+  border-right: 1px solid;
+}
+.m3{
+  height: 70px;
+  text-align: center; 
+			line-height: 70px;/*文字水平居中*/
+			margin:auto;/*div水平居中*/
+  float: left;
+  background-color: gray;
+  width: 25%;
+  text-align: center;
+  border-right: 1px solid;
+}
+.m4{
+  height: 70px;
+  text-align: center; 
+			line-height: 70px;/*文字水平居中*/
+			margin:auto;/*div水平居中*/
+  float: left;
+  background-color: gray;
+  text-align: center;
+  border-right: 1px solid;
+  width: 24%;
+}
+.hexin{
+  float: left;
+  margin-top: 10px;
+    width: 28.33%;
+    border: 5px dashed gray;
+    margin-right: 5px;
+}
+.yunxin{
+  float: left;
+  border: 5px dashed rgb(102, 43, 43);
+  margin-top: 10px; 
+  width: 33.33%;
+  margin-right: 5px;
+}
+.fangfa{
+  float: left;
+  border: 5px dashed rgb(204, 145, 145);
+  margin-top: 10px; 
+  width: 33.33%;
+  margin-right: 5px;
+}
+.yuanli{
+  float: left;
+  margin: 10px;
+  border: 5px dashed rgb(90, 78, 52);
+}
+a{
+  text-decoration:none;
+  color:black;
+}
+    
+    
